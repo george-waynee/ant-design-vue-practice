@@ -3,7 +3,7 @@
  * @Author: 志洪
  * @Date: 2020-03-20 20:24:36
  * @LastEditors: 志洪
- * @LastEditTime: 2020-03-21 01:51:45
+ * @LastEditTime: 2020-03-21 16:01:12
  -->
 <template>
   <div ref="chartDom"></div>
@@ -15,8 +15,6 @@ import echarts from "echarts";
 import debounce from "lodash/debounce";
 // 监听识图的变化
 import { addListener, removeListener } from "resize-detector";
-// 请求插件
-import axios from "axios";
 
 export default {
   props: {
